@@ -1,0 +1,31 @@
+/* work san font form google */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@400;600;800&family=Work+Sans:wght@600;700;800&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header  */
+/* nav  */
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav>ul {
+    display: flex;
+
+}
+
+nav>ul>li {
+    list-style: none;
+    padding: 10px 15px;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+}
